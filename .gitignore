@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#python
+backend/venv/
+__pycache__/
+*.pyc
+
+#pycharm
+.idea
+
+#config
+backend/config.yaml
+
+#pem files
+backend/private.pem
+backend/public.pem
