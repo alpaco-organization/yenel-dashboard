@@ -15,7 +15,7 @@ interface AuthState {
   logout: () => void;
 }
 
-const DEMO_EMAIL = "admin@yeneletiket.com";
+const DEMO_EMAIL = "admin@criamind.com";
 const DEMO_PASSWORD = "123456";
 
 export const useAuthStore = create<AuthState>()(
@@ -28,7 +28,7 @@ export const useAuthStore = create<AuthState>()(
           set({
             user: {
               email: DEMO_EMAIL,
-              name: "Yenel Yönetim",
+              name: "Criamind Demo",
               role: "Genel Müdür",
             },
           });
@@ -38,6 +38,6 @@ export const useAuthStore = create<AuthState>()(
       },
       logout: () => set({ user: null }),
     }),
-    { name: "yenel-auth" }
+    { name: "criamind-auth" }
   )
 );

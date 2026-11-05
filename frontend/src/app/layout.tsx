@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Yenel Etiket — Yönetim Paneli",
-    template: "%s | Yenel Etiket",
+    default: "Criamind — Demo Yönetim Paneli",
+    template: "%s | Criamind Demo",
   },
   description:
-    "Yenel Etiket üst yönetim dashboard'u: ciro, üretim, stok, cari, kalite ve operasyon süreçleri tek panelde.",
+    "Criamind demo yönetim dashboard'u: ciro, üretim, stok, cari, kalite ve operasyon süreçleri tek panelde.",
 };
 
 export default function RootLayout({

@@ -51,7 +51,7 @@ function NavContent({ collapsed }: { collapsed: boolean }) {
         {!collapsed && (
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold tracking-tight text-ink-100">
-              Yenel Etiket
+              Criamind
             </p>
             <p className="text-[10px] uppercase tracking-widest text-ink-500">
               Yönetim Paneli

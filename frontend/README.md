@@ -1,14 +1,14 @@
-# Yenel Etiket — Üst Yönetim Dashboard'u
+# Criamind — Demo Yönetim Dashboard'u
 
 Tekstil aksesuarları, karton kutu, dokuma/baskı etiket ve ambalaj üretimi yapan
-**Yenel Etiket** için geliştirilen, dummy data ile çalışan ve ERP entegrasyonuna
+**Criamind** demosu olarak geliştirilen, dummy data ile çalışan ve ERP entegrasyonuna
 hazır premium yönetim paneli.
 
 ## Demo Giriş
 
 | Alan | Değer |
 | --- | --- |
-| E-posta | `admin@yeneletiket.com` |
+| E-posta | `admin@criamind.com` |
 | Şifre | `123456` |
 
 ## Kurulum

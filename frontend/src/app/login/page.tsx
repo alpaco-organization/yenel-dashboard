@@ -18,7 +18,7 @@ import { useAuthStore } from "@/store/auth-store";
 export default function LoginPage() {
   const router = useRouter();
   const login = useAuthStore((s) => s.login);
-  const [email, setEmail] = useState("admin@yeneletiket.com");
+  const [email, setEmail] = useState("admin@criamind.com");
   const [password, setPassword] = useState("123456");
   const [showPassword, setShowPassword] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -33,7 +33,7 @@ export default function LoginPage() {
     if (ok) {
       router.push("/dashboard");
     } else {
-      setError("E-posta veya şifre hatalı. Demo: admin@yeneletiket.com / 123456");
+      setError("E-posta veya şifre hatalı. Demo: admin@criamind.com / 123456");
     }
   };
 
@@ -48,10 +48,10 @@ export default function LoginPage() {
             </div>
             <div>
               <p className="font-semibold tracking-tight text-ink-100">
-                Yenel Etiket
+                Criamind
               </p>
               <p className="text-[11px] uppercase tracking-widest text-ink-500">
-                Yönetim Paneli
+                Demo Yönetim Paneli
               </p>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function LoginPage() {
             <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-electric-500 to-violet-500 shadow-glow-blue">
               <Tags className="h-6 w-6 text-white" />
             </div>
-            <h1 className="text-xl font-semibold text-ink-100">Yenel Etiket</h1>
+            <h1 className="text-xl font-semibold text-ink-100">Criamind</h1>
           </div>
 
           <h2 className="text-xl font-semibold tracking-tight text-ink-100">
@@ -127,7 +127,7 @@ export default function LoginPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@yeneletiket.com"
+                  placeholder="admin@criamind.com"
                   autoComplete="email"
                   required
                   className="w-full bg-transparent text-sm text-ink-100 outline-none placeholder:text-ink-500"
@@ -195,7 +195,7 @@ export default function LoginPage() {
             <p className="text-[11px] text-ink-500">
               Demo hesap —{" "}
               <span className="font-medium text-ink-300">
-                admin@yeneletiket.com
+                admin@criamind.com
               </span>{" "}
               / <span className="font-medium text-ink-300">123456</span>
             </p>
